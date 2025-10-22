@@ -10,7 +10,7 @@ app.post('/ai-proxy', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer YOUR_DEEPSEEK_API_KEY'
+        'Authorization': 'Bearer sk-e0dde1be918546d390afdd0f58630034'
       },
       body: JSON.stringify(req.body)
     });
